@@ -7,8 +7,8 @@ return {
     config = function()
       local function apply()
         local set = vim.api.nvim_set_hl
-        set(0, "Directory", { fg = "#FFD760" })
-        set(0, "WinBar", { fg = "#FFD760", bg = "#3C3F41" })
+        set(0, "Directory", { fg = "#E3C87C" })
+        set(0, "WinBar", { fg = "#E3C87C", bg = "#3C3F41" })
         set(0, "WinBarNC", { fg = "#6C707E", bg = "#2B2B2B" })
         set(0, "StatusLine", { fg = "#A9B7C6", bg = "#3C3F41" })
         set(0, "StatusLineNC", { fg = "#6C707E", bg = "#2B2B2B" })
@@ -16,7 +16,8 @@ return {
         set(0, "NavicSeparator", { fg = "#515A6B", bg = "#3C3F41" })
         set(0, "NormalFloat", { fg = "#A9B7C6", bg = "#313335" })
         set(0, "FloatBorder", { fg = "#515A6B", bg = "#313335" })
-        local call_fg = "#C792EA"
+        set(0, "NonText", { fg = "#6C707E" })
+        local call_fg = "#88629D"
         set(0, "@function.call", { fg = call_fg })
         set(0, "@function.method", { fg = call_fg })
         set(0, "@function.method.call", { fg = call_fg })
